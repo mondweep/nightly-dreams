@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/rabitq-ivf-quant"]
+resolver = "2"
