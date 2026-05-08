@@ -1,0 +1,12 @@
+[package]
+name = "adaptive-filtered-ann"
+version = "0.1.0"
+edition = "2021"
+description = "Adaptive filtered ANN: selectivity-driven strategy switching for predicate vector search"
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+
+[[example]]
+name = "demo"
+path = "examples/demo.rs"
