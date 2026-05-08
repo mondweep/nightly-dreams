@@ -1,0 +1,18 @@
+[package]
+name = "rabitq-ivf-quant"
+version = "0.1.0"
+edition = "2021"
+description = "RaBitQ 1-bit quantization with IVF partitioning for ruvector — SIGMOD 2024"
+
+[dependencies]
+rand = { version = "0.8", features = ["std_rng"] }
+
+[dev-dependencies]
+criterion = { version = "0.5" }
+
+[[bench]]
+name = "search"
+harness = false
+
+[[example]]
+name = "demo"
