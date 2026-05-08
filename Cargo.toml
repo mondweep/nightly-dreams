@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "crates/adaptive-filtered-ann",
+]
+resolver = "2"
