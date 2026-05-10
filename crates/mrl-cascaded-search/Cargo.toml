@@ -1,0 +1,22 @@
+[package]
+name = "mrl-cascaded-search"
+version = "0.1.0"
+edition = "2021"
+description = "Matryoshka Representation Learning cascaded ANN search for ruvector"
+license = "Apache-2.0"
+
+[[bin]]
+name = "mrl-demo"
+path = "src/main.rs"
+
+[[bench]]
+name = "cascade_bench"
+harness = false
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+ordered-float = "4"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
