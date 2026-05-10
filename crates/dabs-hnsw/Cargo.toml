@@ -1,0 +1,18 @@
+[package]
+name = "dabs-hnsw"
+version = "0.1.0"
+edition = "2021"
+description = "Distance-Adaptive Beam Search for navigable graph indices — arXiv:2505.15636"
+
+[dependencies]
+rand = { version = "0.8", features = ["std_rng"] }
+
+[dev-dependencies]
+criterion = { version = "0.5" }
+
+[[bench]]
+name = "search"
+harness = false
+
+[[example]]
+name = "demo"
