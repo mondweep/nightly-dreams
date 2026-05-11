@@ -1,0 +1,21 @@
+[package]
+name = "pdx-columnar-simd"
+version = "0.1.0"
+edition = "2021"
+description = "PDX columnar vector layout for SIMD-accelerated ANN distance computation in ruvector"
+license = "Apache-2.0"
+
+[[bin]]
+name = "pdx-demo"
+path = "src/main.rs"
+
+[[bench]]
+name = "layout_bench"
+harness = false
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+ordered-float = "4"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
