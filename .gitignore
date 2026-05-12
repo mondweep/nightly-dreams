@@ -1,5 +1,7 @@
 node_modules/
 dist/
+/target/
+Cargo.lock
 .env
 .env.local
 .env.*.local
@@ -9,3 +11,4 @@ dist/
 .idea/
 *.swp
 *.swo
+.claude/settings.local.json
