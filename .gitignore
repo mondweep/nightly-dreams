@@ -1,5 +1,7 @@
 node_modules/
 dist/
+/target/
+Cargo.lock
 .env
 .env.local
 .env.*.local

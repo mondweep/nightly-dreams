@@ -1,0 +1,12 @@
+[package]
+name = "sparse-dense-hybrid-ann"
+version = "0.1.0"
+edition = "2021"
+description = "Sparse-dense hybrid ANNS with distribution-aligned graph index — ruvector nightly research 2026-05-12"
+
+[[bin]]
+name = "demo"
+path = "src/main.rs"
+
+[dependencies]
+rand = "0.8"

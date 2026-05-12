@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "crates/sparse-dense-hybrid-ann",
+]
+resolver = "2"
