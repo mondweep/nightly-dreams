@@ -1,0 +1,12 @@
+[package]
+name = "codeq-streaming-quantization"
+version = "0.1.0"
+edition = "2021"
+description = "CoDEQ: consistent dynamic product quantization for streaming vector search — ruvector nightly research 2026-05-13"
+
+[[bin]]
+name = "demo"
+path = "src/main.rs"
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
