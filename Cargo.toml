@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "crates/late-interaction-maxsim",
+]
+resolver = "2"
