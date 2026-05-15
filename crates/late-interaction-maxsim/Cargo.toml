@@ -1,0 +1,18 @@
+[package]
+name = "late-interaction-maxsim"
+version = "0.1.0"
+edition = "2021"
+description = "Rust PoC for late-interaction MaxSim (ColBERT-style) multi-vector ANN search"
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "maxsim_bench"
+harness = false
+
+[[example]]
+name = "demo"

@@ -10,3 +10,5 @@ dist/
 *.swp
 *.swo
 .claude/settings.local.json
+target/
+Cargo.lock

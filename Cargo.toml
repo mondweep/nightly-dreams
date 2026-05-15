@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/late-interaction-maxsim",
+    "crates/speculative-ann",
+]
+resolver = "2"
