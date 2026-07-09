@@ -9,3 +9,5 @@ dist/
 .idea/
 *.swp
 *.swo
+.claude/settings.local.json
+target/
